@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from routes.analyze import router as analyze_router
 from fastapi.responses import FileResponse
+from app.routes.analyze import router as analyze_router
 
 app = FastAPI()
 
